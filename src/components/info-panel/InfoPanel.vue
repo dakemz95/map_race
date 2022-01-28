@@ -140,6 +140,7 @@ export default {
   }
 
   &-toggle {
+    cursor: pointer;
     border: 1px solid #ddd;
     border-radius: .5em;
     background-color: rgb(255, 255, 255);
