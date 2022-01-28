@@ -1,16 +1,21 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <MapView />
+  <Options />
+  <InfoPanel />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import MapView from "@/components/mapview/MapView.vue";
+import Options from "@/components/options/Options.vue"
+import InfoPanel from "./components/info-panel/InfoPanel.vue";
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    MapView,
+    Options,
+    InfoPanel
+}
 }
 </script>
 
@@ -19,8 +24,6 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>

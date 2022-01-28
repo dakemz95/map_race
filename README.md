@@ -1,5 +1,8 @@
 # map_race
 
+A race simulator using Mapbox-gl and Vue.js, see a [live demo](#)
+
+
 ## Project setup
 ```
 npm install

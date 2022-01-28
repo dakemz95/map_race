@@ -1,12 +1,10 @@
 import { createStore } from 'vuex'
 
+// Custom modules
+import mapModule from './map'
+
 export default createStore({
-  state: {
-  },
-  mutations: {
-  },
-  actions: {
-  },
   modules: {
+    map: mapModule,
   }
 })
