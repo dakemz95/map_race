@@ -1,6 +1,6 @@
 # map_race
 
-A race simulator using Mapbox-gl and Vue.js, see a [live demo](#)
+A race simulator using Mapbox-gl and Vue.js, see a [live demo](https://map-race-dakemz.vercel.app/)
 
 
 ## Project setup
